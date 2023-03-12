@@ -1,8 +1,11 @@
 #include <iostream>
-#include <string>
 
 int main(){
-std::string name;
+
+char name[50];
+
 std::cout << "input name: "; cin >> name;
 cout << "\nHello world from " << name;
+
+return 0;
 }
